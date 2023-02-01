@@ -33,7 +33,7 @@ a {
   display: none;
   align-items: center;
   justify-content: center;
-  margin-bottom: 80px;
+  margin-bottom: 2rem;
 }
 
 .list li {
@@ -46,8 +46,9 @@ a {
 .list li img {
   object-fit: cover;
   object-position: center;
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  
 }
 
 .book {
