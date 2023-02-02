@@ -112,7 +112,7 @@ a img {
 
 .btn:focus { outline: transparent;} 
 
-.btn {
+button {
   text-align: center;
   margin-top: 20px;
   margin-left: auto;
