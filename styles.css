@@ -125,7 +125,7 @@ a img {
   font-family: 'Karla', sans-serif;
   position: relative;
   font-size: 17px;
-  width: 710px;
+  width: 50%;
   max-width: 95%;
   transition: all .3s ease-in-out;
 }
@@ -146,7 +146,7 @@ a img {
   font-family: 'Karla', sans-serif;
   position: relative;
   font-size: 17px;
-  width: 680px;
+  width: 50%;
   max-width: 95%;
   transition: all .3s ease-in-out;
 }
