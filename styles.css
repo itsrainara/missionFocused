@@ -112,7 +112,8 @@ a img {
 
 .btn:focus { outline: transparent;} 
 
-.btn {
+button {
+  box-sizing: border-box;
   text-align: center;
   margin-top: 20px;
   margin-left: auto;
@@ -133,7 +134,7 @@ a img {
 .links:focus { outline: transparent;} 
 
 .links {
-
+  box-sizing: border-box;
   text-align: center;
   margin-top: 20px;
   margin-left: auto;
