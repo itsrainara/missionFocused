@@ -51,40 +51,39 @@ a {
   
 }
 
+.list li a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #FEFFFE;
+  transition: all .3s;
+}
+
+.list li a:hover {
+  text-decoration: none;
+  color: #d4d4d4;
+  text-decoration-line: underline;
+  transition: all .2s;
+  transform: scale(1.03);
+}
+
+li a:focus { outline: transparent;} 
+
 .book {
-  padding: 5px;
-  border: .5px solid #ffffff00;
-  border-width: 1px;
+  margin-top: -5px;
   width: 30px;
-  display: block;
   border-radius: 40px;
-  left: 20px;
-  position: absolute;
   font-size: 20px;
+  position: absolute;
+  left: 20px;
 }
 
-.instagram {
-  padding: 5px;
-  border: .5px solid #ffffff00;
-  border-width: 1px;
+a img {
+  margin-top: -5px;
   width: 30px;
-  display: block;
   border-radius: 40px;
-  left: 20px;
-  position: absolute;
   font-size: 20px;
-}
-
-.tiktok {
-  padding: 5px;
-  border: .5px solid #ffffff00;
-  border-width: 1px;
-  width: 30px;
-  display: block;
-  border-radius: 40px;
-  left: 20px;
   position: absolute;
-  font-size: 20px;
+  left: 20px;
 }
 
 .profile-picture {
@@ -99,7 +98,7 @@ a {
 .profile-name {
   text-align: center;
   padding: 10px;
-  font-family: Karla, sans-serif;
+  font-family: 'Aboreto', cursive;
   font-weight: 700;
   color: #FEFFFE;
   font-size: 20px;
@@ -108,11 +107,14 @@ a {
 .profile-about {
   text-align: center;
   padding: 2px;
-  font-family: Dosis, sans-serif;
+  font-style: italic;
+  font-family: 'Roboto', sans-serif;
   color: #FEFFFE;
   font-size: 15px;
   letter-spacing: 2px;
 }
+
+.btn:focus { outline: transparent;} 
 
 .btn {
   text-align: center;
@@ -124,15 +126,18 @@ a {
   border-width: 1px;
   display: block;
   border-radius: 10px;
-  font-family: Karla, sans-serif;
+  font-family: 'Karla', sans-serif;
   position: relative;
   font-size: 17px;
-  width: 680px;
+  width: 710px;
   max-width: 95%;
   transition: all .3s ease-in-out;
 }
 
+.links:focus { outline: transparent;} 
+
 .links {
+
   text-align: center;
   margin-top: 20px;
   margin-left: auto;
@@ -142,25 +147,12 @@ a {
   border-width: 1px;
   display: block;
   border-radius: 10px;
-  font-family: Karla, sans-serif;
+  font-family: 'Karla', sans-serif;
   position: relative;
   font-size: 17px;
   width: 680px;
   max-width: 95%;
   transition: all .3s ease-in-out;
-}
-
-
-.links-in {
-  padding: 5px;
-  border: .5px solid #ffffff00;
-  border-width: 1px;
-  width: 30px;
-  display: block;
-  border-radius: 40px;
-  left: 20px;
-  position: absolute;
-  font-size: 20px;
 }
 
 .hover {
@@ -184,7 +176,7 @@ a {
   margin-top: 30px;
   font-size: 20px;
   color: #FEFFFE;
-  font-family: Handlee, cursive;
+  font-family: 'Karla', sans-serif;
 }
 
 .link-hide {
@@ -199,7 +191,7 @@ a {
   .profile-about {
     text-align: center;
     padding: 2px;
-    font-family: Dosis, sans-serif;
+    font-family: 'Karla', sans-serif;
     color: #FEFFFE;
     font-size: 15px;
     letter-spacing: 1px;
