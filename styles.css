@@ -69,21 +69,17 @@ a {
 li a:focus { outline: transparent;} 
 
 .book {
-  margin-top: -5px;
-  width: 30px;
-  border-radius: 40px;
-  font-size: 20px;
   position: absolute;
-  left: 20px;
+ width: 30px;
+ display: flex;
+ align-items: center;
 }
 
 a img {
-  margin-top: -5px;
-  width: 30px;
-  border-radius: 40px;
-  font-size: 20px;
-  position: absolute;
-  left: 20px;
+ position: absolute;
+ width: 30px;
+ display: flex;
+ align-items: center;
 }
 
 .profile-picture {
