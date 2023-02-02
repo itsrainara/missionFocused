@@ -133,7 +133,7 @@ a img {
 .links:focus { outline: transparent;} 
 
 .links {
-
+  box-sizing: border-box;
   text-align: center;
   margin-top: 20px;
   margin-left: auto;
