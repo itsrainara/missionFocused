@@ -88,14 +88,29 @@ a img , .book{
     color: #FEFFFE;
     font-size: 1rem;
     letter-spacing: 1px;
-  };
-}
-
-@media (max-width: 768px) {
-  .btn {
-      width: 60%;
   }
 }
+
+@media (max-width: 700px) {
+    .links, .btn  {
+      text-align: center;
+      margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 15px;
+      border: .5px solid #27262B;
+      border-width: 1px;
+      display: block;
+      border-radius: 10px;
+      font-family: 'Karla', sans-serif;
+      position: relative;
+      font-size: 17px;
+      width: 52%;
+      max-width: 95%;
+      transition: all .3s ease-in-out;
+    }
+}
+
 
 .profile-picture {
   display: block;
