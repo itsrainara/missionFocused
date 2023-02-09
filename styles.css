@@ -68,18 +68,33 @@ a {
 
 li a:focus { outline: transparent;} 
 
-.book {
+a img , .book{
+  margin-top: -0.500rem;
+  padding: 5px;
+  border-width: 1px;
+  width: 30px;
+  display: block;
+  border-radius: 40px;
+  left: 20px;
   position: absolute;
- width: 30px;
- display: flex;
- align-items: center;
+  font-size: 1.25rem;
 }
 
-a img {
- position: absolute;
- width: 30px;
- display: flex;
- align-items: center;
+@media (max-width:768px) {
+  .profile-about {
+    text-align: center;
+    padding: 2px;
+    font-family: 'Karla', sans-serif;
+    color: #FEFFFE;
+    font-size: 1rem;
+    letter-spacing: 1px;
+  };
+}
+
+@media (max-width: 768px) {
+  .btn {
+      width: 60%;
+  }
 }
 
 .profile-picture {
@@ -112,8 +127,7 @@ a img {
 
 .btn:focus { outline: transparent;} 
 
-button {
-  box-sizing: border-box;
+.btn {
   text-align: center;
   margin-top: 20px;
   margin-left: auto;
@@ -126,7 +140,7 @@ button {
   font-family: 'Karla', sans-serif;
   position: relative;
   font-size: 17px;
-  width: 50%;
+  width: 52%;
   max-width: 95%;
   transition: all .3s ease-in-out;
 }
@@ -134,12 +148,11 @@ button {
 .links:focus { outline: transparent;} 
 
 .links {
-  box-sizing: border-box;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 1rem;;
   margin-left: auto;
   margin-right: auto;
-  padding: 15px;
+  padding: 1rem;
   border: .5px solid #27262B;
   border-width: 1px;
   display: block;
@@ -184,16 +197,6 @@ button {
   text-decoration: none;
 }
 
-@media (max-width:548px) {
-  .profile-about {
-    text-align: center;
-    padding: 2px;
-    font-family: 'Karla', sans-serif;
-    color: #FEFFFE;
-    font-size: 15px;
-    letter-spacing: 1px;
-  }
-}
 
 .links-footer {
   padding: 4px;
